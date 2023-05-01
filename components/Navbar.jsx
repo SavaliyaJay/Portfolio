@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4 ">
         <Link href="/#home">
           <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
-            Jay Savaliya
+            Js.
           </h1>
         </Link>
         {/* This is my web version */}
@@ -92,7 +92,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
                 <h2 className="text-2xl font-bold uppercase tracking-wider cursor-pointer">
-                  Jay Savaliya
+                  JS.
                 </h2>
               </Link>
               <div className="p-3 cursor-pointer" onClick={() => setnav(false)}>
