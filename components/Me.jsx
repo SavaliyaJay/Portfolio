@@ -7,7 +7,7 @@ import javascript from "../public/assets/resume.pdf";
 
 const Me = () => {
   return (
-    <div id="me" className="w-full">
+    <div id="me" className="w-full pt-5">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-800 font-bold">
           me

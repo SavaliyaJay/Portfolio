@@ -25,7 +25,7 @@ const Portfolio = () => {
     
   ];
   return (
-    <div id="portfolio" className="w-full">
+    <div id="portfolio" className="w-full pt-20 ">
       <div className="max-w-screen-xl mx-auto px-8 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-800  font-bold">
           portfolio
