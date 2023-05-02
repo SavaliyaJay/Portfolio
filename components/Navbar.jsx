@@ -11,12 +11,19 @@ import {
 } from "react-icons/fa";
 
 const Navbar = () => {
-  const [navigation, setNavigation] = useState(false);
-  const [pageScroll, setPageScroll] = useState(false);
+  const colornav = " bg-[#e9d5ff]";
+  const newcolnav = "bg-[#d8b4fe]";
+  const [colorfornav, setcolorfornav] = useState(colornav)
 
   useEffect(() => {
-    const sub = window.addEventListener("scroll", () =>
-      setPageScroll(window.scrollY >= 90)
+    const sub = window.addEventListener("scroll", () => {
+      // setPageScroll();
+      if(window.scrollY >= 90){
+        setcolorfornav(newcolnav);
+      }else{
+        setcolorfornav(colornav)
+      }
+    }
     );
 
     return sub;
@@ -61,13 +68,11 @@ const Navbar = () => {
   };
   return (
     <div
-      className={`w-full h-20 z-10 fixed bg-white text-black duration-300 ease-in ${
-        pageScroll && "bg-[#000] text-white"
-      }`}
+      className={`w-full h-20 z-10 fixed duration-300 ease-in text-black shadow-md backdrop-blur-xl bg-white/30`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4 ">
         <Link href="/#home">
-          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
+          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer pl-20">
             Js.
           </h1>
         </Link>

@@ -14,26 +14,20 @@ const Me = () => {
         </h2>
 
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+          <p className="py-4 max-w-5xl mx-auto">
+            As a driven and skilled computer engineering student, I possess a
+            diverse set of programming skills including C, C++, Java, HTML, CSS,
+            JavaScript, and more. With a passion for web development and a focus
+            on collaboration and problem-solving, I am dedicated to making a
+            positive impact in the technology industry.
           </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
-          </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+          <p className="py-4 max-w-5xl mx-auto">
+            A highly motivated and enthusiastic student currently studying
+            computer engineering at Charusat University, I possess a wide range
+            of programming skills including React JS, PHP, tailwind CSS and
+            more. With a keen eye for detail and strong communication skills, I
+            am committed to creating innovative solutions and driving success in
+            the technology industry.
           </p>
         </div>
 

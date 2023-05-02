@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
   const portfolios = [
     {
       id: 1,
-      title: "Starbuks",
+      title: "Star Bucks",
       imageSrc: img1,
       url: "Starbuks",
       tech: "Html,CSS,Javascript",

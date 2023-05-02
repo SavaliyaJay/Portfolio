@@ -57,9 +57,12 @@ const Experience = () => {
   return (
     <div id="experience" className="w-full pt-5 ">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-800 font-bold">
-          experience
+        <h2 className="text-3xl md:text-5xl tracking-wider font-bold text-indigo-950">
+          Experience
         </h2>
+        <h4 className="text-2xl md:text-3xl tracking-wider text-indigo-900  font-bold">
+          My skills
+        </h4>
         <p className="py-4 max-w-lg">
           While only that hauntedtell many purple no lent cushions more heart.
           Soul cushions the still if i, hath lamplight mortals the rapping have

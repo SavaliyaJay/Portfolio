@@ -11,7 +11,7 @@ const Home = () => {
       <section id="home" className="hero pt-20 ">
         <div className="conatiner flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
           {/* left */}
-          <div className="flex flex-col mb-32 space-y-12 md:w-96 pt-10 mx-auto">
+          <div className="flex flex-col mb-3 space-y-12 md:w-96 pt-10 mx-auto">
             <h1 className="text-4xl font-bold text-center max-w-md md:text-5xl md:text-left">
               Hi There! 👋🏻
               <br /> <span className="text-3xl"> I'M JAY SAVALIYA</span>
@@ -36,13 +36,13 @@ const Home = () => {
             <div className="flex justify-center md:justify-start">
               <Link
                 href="/#me"
-                className="p-3 px-6 pt-3 text-white bg-blue-800 rounded-full baseline hover:bg-blue-600 tracking-wider font-bold uppercase  md:block"
+                className="p-3 px-5 pt-3 text-white bg-[#7c3aed] rounded-md baseline hover:bg-[#5b21b6] tracking-wider font-bold uppercase  md:block"
               >
                 Know More
               </Link>
             </div>
           </div>
-          <div className=" max-w-sm mb-10 mx-auto overflow-hidden rounded-xl">
+          <div className=" max-w-xs mx-auto overflow-hidden rounded-xl">
             <Image src={imgche} alt="nathi" />
           </div>
         </div>
