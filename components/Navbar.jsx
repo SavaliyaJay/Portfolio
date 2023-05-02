@@ -100,14 +100,14 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70 backdrop-blur"
+            ? "md:hidden fixed left-0 top-0 w-full h-full  backdrop-blur"
             : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-4/5 h-fulltext-black shadow-md backdrop-blur-xl bg-[#f3e8ff] p-10 ease-in duration-500 "
               : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
           }
         >
@@ -126,7 +126,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="mt-24 flex flex-col h-fit gap-20">
+          <div className="mt-20 flex flex-col h-fit gap-20">
             <ul className="uppercase font-medium">
               {links.map(({ id, link }) => (
                 <Link key={id} href={`/#${link}`}>
@@ -140,27 +140,27 @@ const Navbar = () => {
               ))}
             </ul>
             <div>
-              <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+              <div className="grid grid-cols-2 mx-auto w-4/5 gap-10 ">
                 <div
-                  className=" flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer bg-gradient-to-r from-cyan-600 to-blue-600"
+                  className=" flex items-center justify-center rounded-full text-white shadow-md shadow-indigo-950 p-3 cursor-pointer border-4 border-white font-white bg-gradient-to-r from-indigo-800 to-indigo-400"
                   onClick={handleLinkedinClick}
                 >
                   <FaLinkedin size={20} />
                 </div>
                 <div
-                  className=" flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer bg-gradient-to-r from-cyan-600 to-blue-600"
+                  className=" flex items-center justify-center rounded-full text-white shadow-md shadow-indigo-950 p-3 cursor-pointer border-4 border-white font-white bg-gradient-to-r from-indigo-800 to-indigo-400"
                   onClick={handleGithubClick}
                 >
                   <FaGithub size={20} />
                 </div>
                 <div
-                  className=" flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer bg-gradient-to-r from-cyan-600 to-blue-600"
+                  className=" flex items-center justify-center rounded-full text-white shadow-md shadow-indigo-950 p-3 cursor-pointer border-4 border-white font-white bg-gradient-to-r from-indigo-800 to-indigo-400"
                   onClick={handleInstagramClick}
                 >
                   <FaInstagram size={20} />
                 </div>
                 <div
-                  className=" flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer bg-gradient-to-r from-cyan-600 to-blue-600"
+                  className=" flex items-center justify-center rounded-full text-white shadow-md shadow-indigo-950 p-3 cursor-pointer border-4 border-white font-white bg-gradient-to-r from-indigo-800 to-indigo-400"
                   onClick={handleFacebookClick}
                 >
                   <FaFacebook size={20} />
