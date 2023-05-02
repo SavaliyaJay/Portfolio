@@ -185,14 +185,14 @@ const Experience = () => {
         </div>
 
         <h4 className="text-2xl md:text-3xl tracking-wider text-indigo-900  font-bold mt-10">
-          My Other Skills
+          My Skills
         </h4>
         <div className="grid lg:grid-cols-4 gap-8">
           {experiences.map(({ id, title, src }) => (
             <div
               key={id}
               className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300
-              odd:shadow-rose-400 even:shadow-blue-400"
+              odd:shadow-indigo-800 even:shadow-indigo-400"
             >
               <Image src={src} className="max-w-[4rem]" alt={title} />
               <h3 className="font-light">{title}</h3>

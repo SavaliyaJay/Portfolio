@@ -33,7 +33,7 @@ const Me = () => {
 
         <div className="flex items-center justify-center gap-10">
           <Link href="/_next/static/files/resume.pdf" download>
-            <div className="group flex items-center justify-center my-8 bg-blue-800 hover:bg-blue-600 text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 text-white bg-[#7c3aed] rounded-md  hover:bg-[#5b21b6] px-6 py-3 font-bold uppercase  tracking-wider cursor-pointer">
               resume
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
                 <MdExpandMore size={25} />
@@ -42,7 +42,7 @@ const Me = () => {
           </Link>
 
           <Link href="/#portfolio">
-            <div className="group flex items-center justify-center my-8 bg-blue-800 hover:bg-blue-600 text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 text-white bg-[#7c3aed] rounded-md  hover:bg-[#5b21b6] px-6 py-3 font-bold uppercase  tracking-wider cursor-pointer">
               my portfolio
               <span className="-rotate-90 duration-100 ease-in group-hover:-rotate-180">
                 <MdExpandMore size={25} />
