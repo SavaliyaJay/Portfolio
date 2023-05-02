@@ -57,7 +57,7 @@ const Experience = () => {
   return (
     <div id="experience" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-800 font-bold">
           experience
         </h2>
         <p className="py-4 max-w-lg">
@@ -73,7 +73,7 @@ const Experience = () => {
               className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300
               odd:shadow-rose-400 even:shadow-blue-400"
             >
-              <Image src={src} width="64px" height="64px" alt={title} />
+              <Image src={src} className="max-w-[4rem]" alt={title} />
               <h3 className="font-light">{title}</h3>
             </div>
           ))}

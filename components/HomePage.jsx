@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       {/* hero */}
-      <section className="hero pt-20 ">
+      <section id="home" className="hero pt-20 ">
         <div className="conatiner flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
           {/* left */}
           <div className="flex flex-col mb-32 space-y-12 md:w-96 pt-10 mx-auto">
@@ -16,7 +16,7 @@ const Home = () => {
               Hi There! 👋🏻
               <br /> <span className="text-3xl"> I'M JAY SAVALIYA</span>
             </h1>
-            <p className="max-w-md text-center text-darkGrayishBlue md:text-left">
+            <div className="max-w-md text-center text-darkGrayishBlue md:text-left">
               <div className="animated-typing text-2xl">
                 <Typed
                   strings={[
@@ -32,11 +32,11 @@ const Home = () => {
                 Currently, I love to work on web application using technologies
                 like React, Tailwind, Next JS ,PHP and Mysql.
               </div>
-            </p>
-            <div class="flex justify-center md:justify-start">
+            </div>
+            <div className="flex justify-center md:justify-start">
               <Link
                 href="/#me"
-                class="p-3 px-6 pt-3 text-white bg-blue-800 rounded-full baseline hover:bg-blue-600 tracking-wider font-bold uppercase  md:block"
+                className="p-3 px-6 pt-3 text-white bg-blue-800 rounded-full baseline hover:bg-blue-600 tracking-wider font-bold uppercase  md:block"
               >
                 Know More
               </Link>

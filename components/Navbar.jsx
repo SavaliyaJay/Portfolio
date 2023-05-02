@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 
 const Navbar = () => {
+  
   const links = [
     {
       id: 1,
