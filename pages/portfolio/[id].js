@@ -3,7 +3,8 @@ import installNode from "../../public/assets/portfolio/installNode.jpg";
 import reactParallax from "../../public/assets/portfolio/reactParallax.jpg";
 import usestate from "../../public/assets/portfolio/usestate.jpg";
 import reactWeather from "../../public/assets/portfolio/reactWeather.jpg";
-
+import img1 from "../../public/assets/portfolio/Starbuck/1.png";
+import img2 from "../../public/assets/portfolio/React News App Function/1.png";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BiChevronLeft } from "react-icons/bi";
@@ -13,28 +14,19 @@ import Image from "next/image";
 const portfolios = [
   {
     id: 1,
-    title: "react weather app",
-    imageSrc: reactWeather,
-    url: "react-weather",
+    title: "Starbuks",
+    imageSrc: img1,
+    url: "Starbuks",
+    tech: "Html,CSS,Javascript",
   },
   {
     id: 2,
-    title: "install node",
-    imageSrc: installNode,
-    url: "install-node",
+    title: "News App",
+    imageSrc: img2,
+    url: "NewsApp",
+    tech: "React JS,Boostrap",
   },
-  {
-    id: 3,
-    title: "use state explained",
-    imageSrc: usestate,
-    url: "use-state-hook",
-  },
-  {
-    id: 4,
-    title: "react parallax scroll",
-    imageSrc: reactParallax,
-    url: "react-parallax",
-  },
+  
 ];
 
 const getPortfolioFrom = (url) => portfolios.filter((p) => p.url === url)[0];
