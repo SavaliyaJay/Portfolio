@@ -9,19 +9,19 @@ const Me = () => {
   return (
     <div id="me" className="w-full pt-5">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-800 font-bold">
-          me
+        <h2 className="text-3xl md:text-5xl tracking-wider  text-indigo-950 font-bold">
+          About Me
         </h2>
 
-        <div className="shadow-xl shadow-blue-300 my-8 px-8">
-          <p className="py-4 max-w-5xl mx-auto">
+        <div className="my-8 px-8">
+          <p className="py-4 max-w-8xl mx-auto">
             As a driven and skilled computer engineering student, I possess a
             diverse set of programming skills including C, C++, Java, HTML, CSS,
             JavaScript, and more. With a passion for web development and a focus
             on collaboration and problem-solving, I am dedicated to making a
             positive impact in the technology industry.
           </p>
-          <p className="py-4 max-w-5xl mx-auto">
+          <p className="py-4 max-w-8xl mx-auto">
             A highly motivated and enthusiastic student currently studying
             computer engineering at Charusat University, I possess a wide range
             of programming skills including React JS, PHP, tailwind CSS and

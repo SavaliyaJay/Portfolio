@@ -60,15 +60,133 @@ const Experience = () => {
         <h2 className="text-3xl md:text-5xl tracking-wider font-bold text-indigo-950">
           Experience
         </h2>
-        <h4 className="text-2xl md:text-3xl tracking-wider text-indigo-900  font-bold">
-          My skills
-        </h4>
-        <p className="py-4 max-w-lg">
-          While only that hauntedtell many purple no lent cushions more heart.
-          Soul cushions the still if i, hath lamplight mortals the rapping have
-          me and.
-        </p>
 
+        <div>
+          {/* Features Section */}
+          <section id="features">
+            {/* Flex container */}
+            <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+              {/* What's Different */}
+              <div className="flex flex-col space-y-12 md:w-1/2">
+                <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
+                  Ready to join me on my tech journey?
+                </h2>
+                <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                  Embarking on my tech journey! Follow along as I learn the ins
+                  and outs of web development and share my experiences along the
+                  way. From coding basics to cutting-edge technologies, join me
+                  as I navigate the world of tech!
+                </p>
+              </div>
+              {/* Numbered List */}
+              <div className="flex flex-col space-y-8 md:w-1/2">
+                {/* List Item */}
+                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                  {/* Heading */}
+                  <div className="rounded-l-full md:bg-transparent">
+                    <div className="flex items-center space-x-2">
+                      <div className="px-4 py-2 text-white bg-[#5b21b6]  rounded-full md:py-1 bg-brightRed">
+                        04
+                      </div>
+                      <h3 className="text-base font-bold md:mb-4 md:hidden">
+                        Jun 2022 - present
+                      </h3>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                      Jun 2019 - present
+                    </h3>
+                    <p className="text-darkGrayishBlue">
+                      Currently, I'm exploring the world of web development with
+                      ReactJS, NextJS, and NodeJS
+                    </p>
+                  </div>
+                </div>
+                {/* List Item */}
+                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                  {/* Heading */}
+                  <div className="rounded-l-full md:bg-transparent">
+                    <div className="flex items-center space-x-2">
+                      <div className="px-4 py-2 text-white bg-[#5b21b6]  rounded-full md:py-1 bg-brightRed">
+                        03
+                      </div>
+                      <h3 className="text-base font-bold md:mb-4 md:hidden">
+                        CreArt Solutions · Internship
+                        <br />
+                        Jun 2021 - Jun 2022
+                      </h3>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                      Jun 2021 - Jun 2022 || CreArt Solutions · Internship
+                    </h3>
+                    <p className="text-darkGrayishBlue">
+                      I want to share with you my learning experience in web
+                      development. How they work, and other things like I was
+                      able to understand more about html, css, js, jquery,
+                      mysql, php
+                    </p>
+                  </div>
+                </div>
+                {/* List Item */}
+                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                  {/* Heading */}
+                  <div className="rounded-l-full md:bg-transparent">
+                    <div className="flex items-center space-x-2">
+                      <div className="px-4 py-2 text-white bg-[#5b21b6]  rounded-full md:py-1 bg-brightRed">
+                        02
+                      </div>
+                      <h3 className="text-base font-bold md:mb-4 md:hidden">
+                        Jun 2019 - Jun 2022
+                      </h3>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                      Jun 2019 - Jun 2022
+                    </h3>
+                    <p className="text-darkGrayishBlue">
+                      This time in college, I'm diving into the world of
+                      programming with C++, Java, and Android development. Along
+                      the way, I'm also exploring the powerful WordPress.
+                    </p>
+                  </div>
+                </div>
+                {/* List Item */}
+                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                  {/* Heading */}
+                  <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                    <div className="flex items-center space-x-2">
+                      <div className="px-4 py-2 text-white bg-[#5b21b6]  rounded-full md:py-1 bg-brightRed">
+                        01
+                      </div>
+                      <h3 className="text-base font-bold md:mb-4 md:hidden">
+                        Before 2019
+                      </h3>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                      Before 2019
+                    </h3>
+                    <p className="text-darkGrayishBlue">
+                      This time I'm learning C, a powerful programming language
+                      used for developing operating systems, databases, and
+                      more. Join me as I dive into the syntax, data types, and
+                      functions of C and discover its endless possibilities!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <h4 className="text-2xl md:text-3xl tracking-wider text-indigo-900  font-bold mt-10">
+          My Other Skills
+        </h4>
         <div className="grid lg:grid-cols-4 gap-8">
           {experiences.map(({ id, title, src }) => (
             <div

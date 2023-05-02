@@ -62,7 +62,7 @@ const Portfolio = () => {
         </div>
         <div className="flex items-center justify-center">
           <Link href="/portfolio">
-            <div className="group flex items-center justify-center my-8 text-white bg-[#7c3aed] rounded-md hover:bg-[#5b21b6]  px-6 py-3 font-bold uppercase tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 text-white bg-[#7c3aed] rounded-md hover:bg-[#5b21b6]  px-5 py-3 font-bold uppercase tracking-wider cursor-pointer">
               all projects
               <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5">
                 <MdExpandMore size={25} />
