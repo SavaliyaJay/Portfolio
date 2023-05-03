@@ -5,8 +5,8 @@ import css from "../public/assets/experience/css.png";
 import javascript from "../public/assets/experience/javascript.png";
 import reactImage from "../public/assets/experience/react.png";
 import nextjs from "../public/assets/experience/nextjs.png";
-import tailwind from "../public/assets/experience/html.png";
-import graphql from "../public/assets/experience/graphql.png";
+import tailwind from "../public/assets/experience/8.png";
+import graphql from "../public/assets/experience/4.png";
 import node from "../public/assets/experience/node.png";
 import Image from "next/image";
 
@@ -44,7 +44,7 @@ const Experience = () => {
     },
     {
       id: 7,
-      title: "GraphQL",
+      title: "MongoDB",
       src: graphql,
     },
     {

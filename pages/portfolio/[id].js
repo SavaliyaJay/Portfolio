@@ -90,7 +90,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc, desc } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc, desc, projecturl, tech } }) => {
   return (
     <div className="h-fit w-full text-center bg-[#f3e8ff]">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -111,11 +111,13 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, desc } }) => {
             <Image key={index} src={img} alt="bla" className="w-full h-full object-cover cursor-pointer rounded-md bg-white p-3 " />
           ))}
         </div>
+        <hr className="border-4 border-white mx-10 mt-10" />
 
-        <h2 className="text-center md:text-left my-4 text-2xl font-bold">
+        <h3 className="text-center text-3xl my-4 capitalize font-bold  text-indigo-950">technologies: {tech}</h3>
+        <hr className="border-2 border-white mx-20" />
+        <h2 className="text-center text-2xl my-4 capitalize font-bold  text-indigo-950">
           Description
         </h2>
-
         <p>
           {desc}
         </p>
@@ -123,7 +125,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, desc } }) => {
 
 
         <div className="flex items-center justify-center gap-10">
-          <Link href="">
+          <Link href={projecturl}>
             <div className="group flex items-center justify-center my-8 text-white bg-[#7c3aed]  hover:bg-[#5b21b6]  px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               demo
               <span className="duration-200 ease-in">
@@ -141,7 +143,11 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, desc } }) => {
             </div>
           </Link>
         </div>
+
+
+        <hr className="border-4 border-white mx-10 b-10" />
       </div>
+
     </div>
   );
 };
