@@ -14,7 +14,7 @@ const Home = () => {
           <div className="flex flex-col mb-3 space-y-12 md:w-96 pt-10 mx-auto">
             <h1 className="text-4xl font-bold text-center max-w-md md:text-5xl md:text-left">
               Hi There! 👋🏻
-              <br /> <span className="text-3xl"> I'M JAY SAVALIYA</span>
+              <br /> <span className="text-3xl"> I AM JAY SAVALIYA</span>
             </h1>
             <div className="max-w-md text-center text-darkGrayishBlue md:text-left">
               <div className="animated-typing text-2xl">

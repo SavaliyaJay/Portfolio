@@ -98,7 +98,7 @@ const Experience = () => {
                       Jun 2019 - present
                     </h3>
                     <p className="text-darkGrayishBlue">
-                      Currently, I'm exploring the world of web development with
+                      Currently, I am exploring the world of web development with
                       ReactJS, NextJS, and NodeJS
                     </p>
                   </div>
@@ -148,9 +148,9 @@ const Experience = () => {
                       Jun 2019 - Jun 2022
                     </h3>
                     <p className="text-darkGrayishBlue">
-                      This time in college, I'm diving into the world of
+                      This time in college, I am diving into the world of
                       programming with C++, Java, and Android development. Along
-                      the way, I'm also exploring the powerful WordPress.
+                      the way, I am also exploring the powerful WordPress.
                     </p>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ const Experience = () => {
                       Before 2019
                     </h3>
                     <p className="text-darkGrayishBlue">
-                      This time I'm learning C, a powerful programming language
+                      This time I am learning C, a powerful programming language
                       used for developing operating systems, databases, and
                       more. Join me as I dive into the syntax, data types, and
                       functions of C and discover its endless possibilities!
