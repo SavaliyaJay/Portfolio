@@ -40,7 +40,6 @@ const Contact = () => {
               medium.
             </p>
 
-            <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
                 <div
                   className="flex items-center justify-center rounded-full shadow-md shadow-indigo-950 hover:scale-105 duration-200 p-3 cursor-pointer"
@@ -67,8 +66,6 @@ const Contact = () => {
                   <FaFacebook size={20} />
                 </div>
               </div>
-            </div>
-
           </div>
 
           {/* form stuff  */}
