@@ -14,7 +14,7 @@ import img2_1 from "../../public/assets/portfolio/React News App Function/1.png"
 import img2_2 from "../../public/assets/portfolio/React News App Function/2.png";
 import img2_3 from "../../public/assets/portfolio/React News App Function/3.png";
 
-import img3_1 from "../../public/assets/portfolio/PHP project/1.jpg";
+import img3_1 from "../../public/assets/portfolio/PHP project/1.png";
 
 import img4_1 from "../../public/assets/portfolio/React Project/1.png";
 

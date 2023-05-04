@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../public/assets/portfolio/Starbuck/1.png";
 import img2 from "../../public/assets/portfolio/React News App Function/1.png";
-import img3 from "../../public/assets/portfolio/PHP project/2.jpg";
+import img3 from "../../public/assets/portfolio/PHP project/2.png";
 import img4 from "../../public/assets/portfolio/React Project/2.png";
 import img5 from "../../public/assets/portfolio/Tailwind project/3.png";
 import { MdExpandMore } from "react-icons/md";
