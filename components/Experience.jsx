@@ -95,7 +95,7 @@ const Experience = () => {
                   </div>
                   <div>
                     <h3 className="hidden mb-4 text-lg font-bold md:block">
-                      Jun 2019 - present
+                      Jun 2022 - present
                     </h3>
                     <p className="text-darkGrayishBlue">
                       Currently, I am exploring the world of web development with

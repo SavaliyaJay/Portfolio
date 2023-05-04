@@ -27,7 +27,7 @@ const Contact = () => {
           Contact Me
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-indigo-700 bg-white mt-4">
+        <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-indigo-700 bg-white mt-4  rounded-xl">
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
             <Image
               src={contactus}
