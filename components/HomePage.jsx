@@ -30,8 +30,9 @@ const Home = () => {
                 <TypeAnimation
                   sequence={[
                     "I'm a Frontend Developer",
-                    5000, // Waits 1s
+                    3000, // Waits 1s
                     "I Love Software Development",
+                    3000, 
                     () => {
                       console.log("Sequence completed"); // Place optional callbacks anywhere in the array
                     },
