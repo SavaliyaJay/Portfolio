@@ -1,7 +1,7 @@
 import React from "react";
 import imgche from "../public/assets/heroImage2.jpg";
 import Image from "next/image";
-// import Typed from "react-typed";
+import Typed from "react-typed";
 import Link from "next/link";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             </h1>
             <div className="max-w-md text-center text-darkGrayishBlue md:text-left">
               <div className="animated-typing text-2xl">
-                {/* <Typed
+                <Typed
                   strings={[
                     "I'm a Frontend Developer",
                     "I Love Software Development",
@@ -26,7 +26,7 @@ const Home = () => {
                   typeSpeed={150}
                   backSpeed={100}
                   loop
-                /> */}
+                />
               </div>
               <div className="pt-4">
                 Currently, I love to work on web application using technologies
