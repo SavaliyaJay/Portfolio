@@ -1,7 +1,7 @@
 import React from "react";
 import imgche from "../public/assets/heroImage2.jpg";
 import Image from "next/image";
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
 const Home = () => {
@@ -18,14 +18,27 @@ const Home = () => {
             </h1>
             <div className="max-w-md text-center text-darkGrayishBlue md:text-left">
               <div className="animated-typing text-2xl">
-                <Typed
+                {/* <Typed
                   strings={[
-                    "I'm a Frontend Developer",
-                    "I Love Software Development",
+                   
+                   
                   ]}
                   typeSpeed={150}
                   backSpeed={100}
                   loop
+                /> */}
+                <TypeAnimation
+                  sequence={[
+                    "I'm a Frontend Developer",
+                    5000, // Waits 1s
+                    "I Love Software Development",
+                    () => {
+                      console.log("Sequence completed"); // Place optional callbacks anywhere in the array
+                    },
+                  ]}
+                  wrapper="span"
+                  cursor={true}
+                  repeat={Infinity}
                 />
               </div>
               <div className="pt-4">
