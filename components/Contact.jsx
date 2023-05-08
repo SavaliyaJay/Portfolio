@@ -14,7 +14,7 @@ const Contact = () => {
   };
   const handleInstagramClick = () => {
     window.location.href =
-      "https://instagram.com/https://www.instagram.com/invites/contact/?i=3rk3vji3np97&utm_content=5h6ftzx";
+      "https://instagram.com/jay_savaliya_04?igshid=ZGUzMzM3NWJiOQ==";
   };
   const handleFacebookClick = () => {
     window.location.href =
