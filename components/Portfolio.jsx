@@ -1,27 +1,27 @@
 import React from "react";
 import { MdExpandMore } from "react-icons/md";
 
-import img1 from "../public/assets/portfolio/Starbuck/1.png";
-import img2 from "../public/assets/portfolio/React News App Function/1.png";
 import Link from "next/link";
 import Image from "next/image";
+import img6_1 from "../public/assets/portfolio/StuRepo/1.png";
+import img7_1 from "../public/assets/portfolio/meet/1.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 1,
-      title: "Star Bucks",
-      imageSrc: img1,
-      url: "Starbuks",
-      tech: "Html,CSS,Javascript",
+      id: 6,
+      title: "Student Reporting System",
+      imageSrc: img6_1,
+      url: "StuRepo",
+      tech: "react js, redux, node js, postgres, sequelize",
     },
     {
-      id: 2,
-      title: "News App",
-      imageSrc: img2,
-      url: "NewsApp",
-      tech: "React JS,Boostrap",
-    },
+      id: 7,
+      title: "E-meeting",
+      imageSrc: img7_1,
+      url: "meet",
+      tech: "Html, CSS, Javascript, Node JS, Express JS, WebRTC, Socket.io",
+    }
   ];
   return (
     <div id="portfolio" className="w-full pt-20 ">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 <div className="flex justify-between items-center mx-4">
                   <div className="my-4">
                     <h2 className="text-center text-base  capitalize font-bold text-indigo-950">{title}</h2>
-                    <h3 className="text-center text-base capitalize font-bold text-indigo-950">technologies: {tech}</h3>
+                    <h3 className="text-center text-base capitalize font-bold text-indigo-950">tech: {tech}</h3>
                   </div>
                   <div className="group flex items-center justify-center my-2 text-[#6d28d9] hover:border-b-4 hover:border-indigo-500 px-6 py-2 font-bold cursor-pointer">
                     Read More

@@ -4,13 +4,29 @@ import img2 from "../../public/assets/portfolio/React News App Function/1.png";
 import img3 from "../../public/assets/portfolio/PHP project/2.png";
 import img4 from "../../public/assets/portfolio/React Project/2.png";
 import img5 from "../../public/assets/portfolio/Tailwind project/3.png";
-import { MdExpandMore } from "react-icons/md";
+import img6_1 from "../../public/assets/portfolio/StuRepo/1.png";
+import img7_1 from "../../public/assets/portfolio/meet/1.png";
+
 import Link from "next/link";
 import Image from "next/image";
 
 export const getStaticProps = async () => {
   const portfolios = [
     {
+      id: 6,
+      title: "Student Reporting System",
+      imageSrc: img6_1,
+      url: "StuRepo",
+      tech: "react js, redux, node js, postgres, sequelize",
+    },
+    {
+      id: 7,
+      title: "E-meeting",
+      imageSrc: img7_1,
+      url: "meet",
+      tech: "Html, CSS, Javascript, Node JS, Express JS, WebRTC, Socket.io",
+    }
+    ,{
       id: 1,
       title: "Star Bucks",
       imageSrc: img1,
@@ -36,7 +52,7 @@ export const getStaticProps = async () => {
       url: "eLearning",
       tech: "React Js, Tailwind CSS, Node JS, Express JS, Mongoosee",
     }, {
-      id: 4,
+      id: 5,
       title: "Tailwind CSS Project",
       imageSrc: img5,
       url: "tailCss",
